@@ -27,7 +27,6 @@ app.get("/",(req,res)=>{
     res.send("Notes API-Develop By Devajit Patar");
 });
 
-console.log(process.env.SECRET_KEY);
 
 mongoose.connect(process.env.MONGO_URL)
         .then(()=>{
