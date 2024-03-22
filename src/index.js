@@ -5,6 +5,7 @@ const userRouter = require("./routes/userRoutes");
 const notesRouter = require("./routes/noteRoutes");
 
 const mongoose = require("mongoose");
+
 const cors = require("cors");
 
 
